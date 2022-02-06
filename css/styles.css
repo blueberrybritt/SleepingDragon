@@ -1,0 +1,25 @@
+body {
+    font-family: "Roboto", monospace, sans-serif;
+}
+
+h1, h2, h3 {
+    font-family: "Valera Round", sans-serif;
+}
+
+h2 {
+    color:#FF7F50;
+}
+
+header h2 {
+    color: #FFF8DC;
+}
+
+.jumbotron {
+    margin: 0;
+    padding: 30px;
+    background-image: linear-gradient(to right, #FFD700, #FF7F50, #FF8C00)
+}
+
+.navbar {
+    background-color: #FF7F50;
+}
