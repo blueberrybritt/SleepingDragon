@@ -6,12 +6,13 @@ h1, h2, h3 {
     font-family: "Valera Round", sans-serif;
 }
 
-h2 {
-    color:#FF7F50;
-}
-
 header h1, h2 {
     color: #FFF8DC;
+}
+
+h3 {
+    padding: 10px;
+    color:#FF7F50
 }
 
 .jumbotron {
@@ -22,4 +23,8 @@ header h1, h2 {
 
 .navbar {
     background-color: #FF7F50;
+}
+
+.card-deck {
+    padding: 10px;
 }
