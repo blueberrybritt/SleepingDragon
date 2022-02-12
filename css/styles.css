@@ -1,13 +1,20 @@
 body {
     font-family: "Roboto", monospace, sans-serif;
 }
-
-h1, h2, h3 {
+ h3, h2 {
     font-family: "Valera Round", sans-serif;
 }
 
+h1 {
+    font-family: "Redressed", cursive;
+}
+
+h2 {
+    font-size: larger;
+}
+
 header h1, h2 {
-    color: #FFF8DC;
+    color: #FF7F50;
 }
 
 h3 {
@@ -18,7 +25,7 @@ h3 {
 .jumbotron {
     margin: 0;
     padding: 30px;
-    background-image: url("../img/shelf.jpg");
+    background-image: linear-gradient(to right, #FFE4C4, #E9967A  );
 }
 
 .navbar {

@@ -17,4 +17,5 @@ $(function () {
      $("#reserveButton6").click(function () {
        $("#reserveModal").modal("show");
      });
+  $(".carousel").carousel({ interval: 3000 });
 });

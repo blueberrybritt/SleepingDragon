@@ -14,6 +14,7 @@
       href="https://fonts.googleapis.com/css2?family=Space+Mono&display=swap"
     />
     <link rel="stylesheet" href="css/styles.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Redressed&display=swap" rel="stylesheet">
 
     <title>The Sleeping Dragon Board Game Cafe</title>
   </head>
@@ -51,146 +52,154 @@
         </div>
       </div>
     </nav>
-    <div class="col">
-      <ol class="breadcrumb">
-        <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-        <li class="breadcrumb-item active">Reserve</li>
-      </ol>
-    </div>
-    <h3>Reserve a Space for Your Next Event</h3>
 
-    <div class="card-deck">
-      <div class="card">
-        <img class="card-img-top" src="/img/cirque2.jpg" alt="Card image cap" />
-        <div class="card-body">
-          <h5 class="card-title">Board Game Seating Small Table</h5>
-          <p class="card-text"><small class="text-muted">2-4 people</small></p>
-          <p class="card-text">
-            Three-hour board game seating session for 2-4 people. Play board games from our
-            extensive library and enjoy some snacks from our menu!
-          </p>
-          <a href="#" class="btn btn-outline-warning" id="reserveButton">Reserve</a>
-        </div>
-      </div>
-      <div class="card">
-        <img class="card-img-top" src="/img/8.jpg" alt="Card image cap" />
-        <div class="card-body">
-          <h5 class="card-title">Board Game Seating Large Table</h5>
-          <p class="card-text"><small class="text-muted">5-8 people</small></p>
-          <p class="card-text">
-            Three-hour board game seating session for 5-8 people. Play board games from our
-            extensive library and enjoy some snacks from our menu!
-          </p>
-          <a href="#" class="btn btn-outline-warning" id="reserveButton2">Reserve</a>
-        </div>
-      </div>
-    </div>
-    <div class="card-deck">
-      <div class="card">
-        <img class="card-img-top" src="/img/magic.jpg" alt="Card image cap" />
-        <div class="card-body">
-          <h5 class="card-title">Magic Mondays</h5>
-          <p class="card-text"><small class="text-muted">Mondays @ 6:30 pm</small></p>
-          <p class="card-text">
-            Reserve a space in our weekly Magic: The Gathering Tournaments! This event occurs weekly
-            on Wednesday evenings starting ar 6:30 pm. Bring your own decks our you can buy some
-            in-store. Beginners are welcome!
-          </p>
-          <a href="#" class="btn btn-outline-warning" id="reserveButton3">Reserve</a>
-        </div>
-      </div>
-      <div class="card">
-        <img class="card-img-top" src="/img/dd.jpg" alt="Card image cap" />
-        <div class="card-body">
-          <h5 class="card-title">D&D Wednesdays</h5>
-          <p class="card-text"><small class="text-muted">Wednesdays @ 6:30 pm</small></p>
-          <p class="card-text">
-            Reserve a space in our weekly D&D campaign! Each week will bring us something different
-            from the world of Dungeons & Dragons. This event occurs weekly on Wednesday evenings
-            starting ar 6:30 pm. Beginners are welcome!
-          </p>
-          <a href="#" class="btn btn-outline-warning" id="reserveButton4">Reserve</a>
-        </div>
-      </div>
-    </div>
+    <div class="container">
 
-    <div class="card-deck">
-      <div class="card">
-        <img class="card-img-top" src="/img/event.jpg" alt="Card image cap" />
-        <div class="card-body">
-          <h5 class="card-title">Private Event Half Day</h5>
-          <p class="card-text"><small class="text-muted">Up to 6 hrs</small></p>
-          <p class="card-text">
-            Reserve our entire space for up to 6 hours for your own private events! From large group
-            games to tournaments to parties. We can also offer catering for these events. We have
-            both afternoon and evening availability for half-day private events.
-          </p>
-          <a href="#" class="btn btn-outline-warning" id="reserveButton5">Reserve</a>
+      <div class="row">
+        <div class="col">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+            <li class="breadcrumb-item active">Reserve</li>
+          </ol>
+          <h3>Reserve a Space for Your Next Event!</h3>
+          <hr />
         </div>
       </div>
-      <div class="card">
-        <img class="card-img-top" src="/img/event2.jpg" alt="Card image cap" />
-        <div class="card-body">
-          <h5 class="card-title">Private Event Full Day</h5>
-          <p class="card-text"><small class="text-muted">Up to 12 hrs</small></p>
-          <p class="card-text">
-            Reserve our entire space for up to 12 hours for your own private events! From large
-            group games to tournaments to parties. We can also offer catering for these events.
-          </p>
-          <a href="#" class="btn btn-outline-warning" id="reserveButton6">Reserve</a>
-        </div>
-      </div>
-    </div>
 
-    <div id="reserveModal" class="modal fade" role="dialog">
-      <div class="modal-dialog modal-lg" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h3 class="modal-title">Reserve</h3>
-            <button type="button" class="close" data-dismiss="modal">&times;</button>
+      <div class="card-deck">
+        <div class="card">
+          <img class="card-img-top" src="/img/cirque2.jpg" alt="Card image cap" />
+          <div class="card-body">
+            <h5 class="card-title">Board Game Seating Small Table</h5>
+            <p class="card-text"><small class="text-muted">2-4 people</small></p>
+            <p class="card-text">
+              Three-hour board game seating session for 2-4 people. Play board games from our
+              extensive library and enjoy some snacks from our menu!
+            </p>
+            <a href="#" class="btn btn-outline-warning" id="reserveButton">Reserve</a>
           </div>
-          <div class="modal-body">
-            <div class="container-fluid">
-              <form>
-                <div class="form-group row">
-                  <label for="numGuests" class="col-sm-6 col-form-label">Number of Guests</label>
-                  <div class="col-sm-6">
-                    <input
-                      type="email"
-                      class="form-control form-control-sm"
-                      id="numGuests"
-                      placeholder="Number of guests"
-                    />
+        </div>
+        <div class="card">
+          <img class="card-img-top" src="/img/8.jpg" alt="Card image cap" />
+          <div class="card-body">
+            <h5 class="card-title">Board Game Seating Large Table</h5>
+            <p class="card-text"><small class="text-muted">5-8 people</small></p>
+            <p class="card-text">
+              Three-hour board game seating session for 5-8 people. Play board games from our
+              extensive library and enjoy some snacks from our menu!
+            </p>
+            <a href="#" class="btn btn-outline-warning" id="reserveButton2">Reserve</a>
+          </div>
+        </div>
+      </div>
+      <div class="card-deck">
+        <div class="card">
+          <img class="card-img-top" src="/img/magic.jpg" alt="Card image cap" />
+          <div class="card-body">
+            <h5 class="card-title">Magic Mondays</h5>
+            <p class="card-text"><small class="text-muted">Mondays @ 6:30 pm</small></p>
+            <p class="card-text">
+              Reserve a space in our weekly Magic: The Gathering Tournaments! This event occurs
+              weekly on Wednesday evenings starting ar 6:30 pm. Bring your own decks our you can buy
+              some in-store. Beginners are welcome!
+            </p>
+            <a href="#" class="btn btn-outline-warning" id="reserveButton3">Reserve</a>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top" src="/img/dd.jpg" alt="Card image cap" />
+          <div class="card-body">
+            <h5 class="card-title">D&D Wednesdays</h5>
+            <p class="card-text"><small class="text-muted">Wednesdays @ 6:30 pm</small></p>
+            <p class="card-text">
+              Reserve a space in our weekly D&D campaign! Each week will bring us something
+              different from the world of Dungeons & Dragons. This event occurs weekly on Wednesday
+              evenings starting ar 6:30 pm. Beginners are welcome!
+            </p>
+            <a href="#" class="btn btn-outline-warning" id="reserveButton4">Reserve</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="card-deck">
+        <div class="card">
+          <img class="card-img-top" src="/img/event.jpg" alt="Card image cap" />
+          <div class="card-body">
+            <h5 class="card-title">Private Event Half Day</h5>
+            <p class="card-text"><small class="text-muted">Up to 6 hrs</small></p>
+            <p class="card-text">
+              Reserve our entire space for up to 6 hours for your own private events! From large
+              group games to tournaments to parties. We can also offer catering for these events. We
+              have both afternoon and evening availability for half-day private events.
+            </p>
+            <a href="#" class="btn btn-outline-warning" id="reserveButton5">Reserve</a>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top" src="/img/event2.jpg" alt="Card image cap" />
+          <div class="card-body">
+            <h5 class="card-title">Private Event Full Day</h5>
+            <p class="card-text"><small class="text-muted">Up to 12 hrs</small></p>
+            <p class="card-text">
+              Reserve our entire space for up to 12 hours for your own private events! From large
+              group games to tournaments to parties. We can also offer catering for these events.
+            </p>
+            <a href="#" class="btn btn-outline-warning" id="reserveButton6">Reserve</a>
+          </div>
+        </div>
+      </div>
+
+      <div id="reserveModal" class="modal fade" role="dialog">
+        <div class="modal-dialog modal-lg" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h3 class="modal-title">Reserve</h3>
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+            <div class="modal-body">
+              <div class="container-fluid">
+                <form>
+                  <div class="form-group row">
+                    <label for="numGuests" class="col-sm-6 col-form-label">Number of Guests</label>
+                    <div class="col-sm-6">
+                      <input
+                        type="email"
+                        class="form-control form-control-sm"
+                        id="numGuests"
+                        placeholder="Number of guests"
+                      />
+                    </div>
                   </div>
-                </div>
-                <div class="row form-group">
-                  <label for="date" class="col-sm-6 col-form-label">Date</label>
-                  <div class="col">
-                    <input type="date" class="form-control" id="date" name="date" />
+                  <div class="row form-group">
+                    <label for="date" class="col-sm-6 col-form-label">Date</label>
+                    <div class="col">
+                      <input type="date" class="form-control" id="date" name="date" />
+                    </div>
                   </div>
-                </div>
-                <div class="row form-group">
-                  <label for="time" class="col-sm-6 col-form-label">Time</label>
-                  <div class="col">
-                    <input type="time" class="form-control" id="time" name="time" />
+                  <div class="row form-group">
+                    <label for="time" class="col-sm-6 col-form-label">Time</label>
+                    <div class="col">
+                      <input type="time" class="form-control" id="time" name="time" />
+                    </div>
                   </div>
-                </div>
-                <div class="row">
-                  <div class="col">
-                    <input
-                      class="btn btn-outline-secondary"
-                      type="button"
-                      data-dismiss="modal"
-                      value="Cancel"
-                    />
-                    <input class="btn btn-outline-warning" type="submit" value="Search" />
+                  <div class="row">
+                    <div class="col">
+                      <input
+                        class="btn btn-outline-secondary"
+                        type="button"
+                        data-dismiss="modal"
+                        value="Cancel"
+                      />
+                      <input class="btn btn-outline-warning" type="submit" value="Search" />
+                    </div>
                   </div>
-                </div>
-              </form>
+                </form>
+              </div>
             </div>
           </div>
         </div>
       </div>
+
     </div>
 
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
