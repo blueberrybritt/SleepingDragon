@@ -1,52 +1,60 @@
 body {
-    font-family: "Roboto", monospace, sans-serif;
+  font-family: "Roboto", monospace, sans-serif;
 }
- h3, h2, h4, h5 {
-    font-family: "Valera Round", sans-serif;
+h3,
+h2,
+h4,
+h5 {
+  font-family: "Valera Round", sans-serif;
 }
 
 h1 {
-    font-family: "Redressed", cursive;
+  font-family: "Redressed", cursive;
 }
 
 h2 {
-    font-size: larger;
+  font-size: larger;
 }
 
-header h1, h2 {
-    color: #FF7F50;
+header h1,
+h2 {
+  color: #ff7f50;
 }
 
 h3 {
-    padding: 10px;
-    color:#FF7F50
+  padding: 10px;
+  color: #ff7f50;
 }
 
 h4 {
-    color: #FF7F50;
-    padding: 10px;
+  color: #ff7f50;
+  padding: 10px;
 }
 
 h5 {
-    color: white;
+  color: white;
 }
 
 .jumbotron {
-    margin: 0;
-    padding: 30px;
-    background-image: linear-gradient(to right, #FFE4C4, #E9967A  );
+  margin: 0;
+  padding: 30px;
+  background-image: linear-gradient(to right, #ffe4c4, #e9967a);
 }
 
 .navbar {
-    background-color: #FF7F50;
+  background-color: #ff7f50;
 }
 
 .card-deck {
-    padding: 10px;
+  padding: 10px;
 }
 
 .site-footer {
-  background-image: linear-gradient(#E9967A, #FFE4C4);
+  background-image: linear-gradient(#e9967a, #ffe4c4);
   padding: 20px;
   color: white;
+}
+
+.col-content {
+  text-align: center;
 }
