@@ -1,7 +1,7 @@
 body {
     font-family: "Roboto", monospace, sans-serif;
 }
- h3, h2 {
+ h3, h2, h4 {
     font-family: "Valera Round", sans-serif;
 }
 
@@ -20,6 +20,11 @@ header h1, h2 {
 h3 {
     padding: 10px;
     color:#FF7F50
+}
+
+h4 {
+    color: #FF7F50;
+    padding: 10px;
 }
 
 .jumbotron {
