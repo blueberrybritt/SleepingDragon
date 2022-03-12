@@ -58,3 +58,9 @@ h5 {
 .col-content {
   text-align: center;
 }
+
+.price {
+  font-size: smaller;
+  float: right;
+}
+
